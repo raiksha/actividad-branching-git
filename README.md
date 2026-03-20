@@ -14,6 +14,50 @@
 ## Objetivo
 Practicar branching, fork, pull request y merge.
 
+----------------------------
+
+## Aporte Alumno 1 - Constanza
+
+## Tema investigado
+
+¿Qué es una rama en Git?
+
+## Definición
+
+Una rama en Git (en inglés: Git branch) es una **línea de desarrollo** dentro del historial de un repositorio, representada como una **secuencia de commits**, que permite trabajar en cambios de forma **separada** de la línea principal (main) para evitar conflictos y desorden en el código.
+
+## Explicación propia
+
+Una rama es como un “camino” dentro del proyecto. Todo el código va avanzando a través de cambios (commits), y cada rama sigue su propio camino dentro de ese historial. Puedes tener varias ramas al mismo tiempo, cada una con su propio progreso, sin que interfieran directamente entre sí hasta que se unan.
+
+## Ejemplo
+
+Imagina que varias personas están trabajando en una tesis grupal. Existe un **documento principal** que contiene la versión oficial del trabajo. En lugar de que todos editen ese mismo archivo al mismo tiempo, cada integrante trabaja en su **propia copia del documento**, donde desarrolla sus ideas, hace cambios y corrige partes.
+
+Luego, el grupo se reúne para revisar esos avances y decidir qué cambios se **integran** al documento principal.
+
+En esta analogía:
+
+* El documento principal representa la **rama `main`**
+* Las copias individuales de cada persona representan las **ramas secundarias**
+* La reunión donde se integran los cambios corresponde al proceso de **unir ramas (merge)**
+
+
+## Respuestas
+
+1. **¿Qué es una rama en Git?**
+   Es una línea de desarrollo dentro del historial del repositorio, formada por una secuencia de commits.
+
+2. **¿Por qué las ramas ayudan a ordenar el trabajo?**
+   Porque permiten separar distintas tareas (como nuevas funciones o correcciones) en líneas de desarrollo distintas, evitando mezclar cambios de forma desordenada.
+
+3. **¿Qué riesgo existe si todos trabajan en `main`?**
+   Se pueden mezclar cambios sin control, generar errores en la versión principal y provocar conflictos frecuentes entre los aportes de distintos desarrolladores.
+
+## Conclusión personal
+
+Las ramas son una forma de estructurar el desarrollo de un proyecto, permitiendo trabajar en distintas partes del código de manera organizada. Sin ellas, el trabajo sería más caótico y propenso a errores, especialmente cuando participan varias personas.
+
 -----------------------------
 
 ## Aporte Alumno 2 - Angie
