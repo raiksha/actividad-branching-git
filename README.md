@@ -116,6 +116,53 @@ EL commit es como un marcapáginas de un libro, haciendo esta analogía . El mar
 Los commits son un herramienta en forma de  que permite organizar los cambios en nuestro Git, esto es vital para realizar un trabajo grupal y que todos puedan entenderlo. Además de guardar una "copia" de nuestro trabajo hasta el momento, en el caso de que hayamos cometido un error podemos volver atrás y revisar nuestro trabajo anterior.
 
 ---
+## Aporte Alumno 5 - Dafne
+## Tema investigado
+¿Qué es push y qué relación tiene con GitHub?
+
+## Definición
+
+- **Trabajar local:** Realizar cambios en el proyecto desde tu propio computador, usando una copia del repositorio.
+
+- **Remoto:** Es el repositorio que está en internet (GitHub).
+
+- **push:** Subir tus cambios desde tu computador al repositorio remoto.
+
+- **¿Por qué no aparecen los cambios automáticamente?:** Porque Git no los sube por sí solo; es necesario ejecutar el comando push para enviarlos al repositorio remoto.
+
+## Explicación propia
+
+Trabajar local es trabajar desde tu propio computador en vez de la web, para luego subir los cambios a GitHub. En cambio, trabajar remoto es trabajar directamente desde la web.
+
+Para subir los cambios desde tu computador a la web se utiliza el comando push, que envía los cambios hechos en el repositorio local al remoto.
+
+Git no sube los cambios automáticamente para evitar errores, por lo que la única manera de subirlos es usando el comando push.
+
+## Ejemplo
+
+Cuando realicé mi proyecto de título, tuve que trabajar con varias personas en un mismo código y, para evitar conflictos, cada uno trabajaba desde su computador en el repositorio local y luego subíamos los cambios al repositorio remoto usando push.
+
+El hecho de que los commits no se subieran automáticamente nos permitía tener más control sobre los cambios que hacíamos, ya que, si no revisábamos bien el código, podríamos afectar la rama main y hacer fallar el programa.
+
+## Respuestas
+
+1. **¿Qué diferencia hay entre local y remoto?**
+
+- La diferencia es que local se trabaja desde el computador, mientras que remoto es trabajar desde la web (GitHub).
+
+2. **¿Qué hace git push?**
+
+- git push permite subir los cambios hechos en el repositorio local al remoto.
+
+3. **¿Por qué un commit local no siempre aparece en GitHub?**
+
+- Porque si no se usa el comando push, ningún commit hecho en local aparecerá en GitHub. Esto permite tener mayor control sobre los cambios antes de subirlos.
+
+## Conclusión personal
+
+Cuando se trabaja en un equipo grande en un mismo programa, usar un repositorio local permite que todos trabajen al mismo tiempo sin afectar la rama main. De esta forma, los cambios se pueden revisar antes de subirlos y así evitar errores en el código. Luego, se utiliza push para subirlos al repositorio remoto, lo que permite tener un mayor control sobre los cambios que realiza cada persona del equipo.
+
+---
 
 ## Aporte alumna 7 Arantxa
 
