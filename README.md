@@ -96,9 +96,10 @@ Nos facilitará el trabajo ya que no habra que volver a corregir errors en `main
 
 -------
 
-##Aporte Alumna 4 Zuelem
+## Aporte Alumna 4 Zuelem
+
 Tema investigado
-[## ¿Qué es un commit y por qué es importante?]
+ ¿Qué es un commit y por qué es importante?
  
 ## Definición
 [Un commit en Git es un objeto que representa una instantánea (snapshot) del estado completo del repositorio en un momento específico. Este objeto incluye metadatos (autor, fecha, mensaje) y una referencia a un árbol (tree) que describe la estructura y contenido de los archivos versionados]
