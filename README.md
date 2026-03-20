@@ -163,6 +163,36 @@ El hecho de que los commits no se subieran automáticamente nos permitía tener 
 Cuando se trabaja en un equipo grande en un mismo programa, usar un repositorio local permite que todos trabajen al mismo tiempo sin afectar la rama main. De esta forma, los cambios se pueden revisar antes de subirlos y así evitar errores en el código. Luego, se utiliza push para subirlos al repositorio remoto, lo que permite tener un mayor control sobre los cambios que realiza cada persona del equipo.
 
 ---
+## Aporte Alumno 6 Valentina 
+
+## Tema investigado
+**¿Qué es un Pull Request (PR)?**
+ 
+## Definición
+Es una petición formal en GitHub para integrar los cambios realizados en una rama de trabajo hacia la rama principal del proyecto. Es el paso previo donde el código queda "en espera" para ser revisado y aprobado por el equipo antes de unirse al código oficial.
+ 
+## Explicación propia
+Para mí, un **Pull Request** es el espacio de conversación y seguridad del equipo. Es la forma de avisar: *"He terminado mi parte, por favor revisen mi código antes de sumarlo al resto"*. Como segunda revisora, entro al PR para comparar los cambios con la versión original y asegurar que todo esté ordenado, sin errores técnicos y listo para el **merge**.
+ 
+## Ejemplo
+Supongamos que un compañero termina una función en **JavaScript** y abre un Pull Request. Mi proceso en GitHub sería:
+1. Entrar al PR y revisar en la pestaña de cambios qué líneas se agregaron o borraron.
+2. Verificar que aparezca el "check verde" de GitHub (que indica que no hay conflictos).
+3. Revisar que la lógica de la función sea clara y no tenga errores de escritura.
+4. Comentar: *"Todo ok, la lógica es clara y no rompe nada. Listo para subir"*.
+ 
+## Respuestas
+
+1. **¿Qué es un Pull Request?** Es una herramienta de GitHub para pedir permiso antes de integrar cambios. Es el momento en que un desarrollador le dice al equipo: *"He terminado mi parte en mi rama, por favor revisen si mi código está bien para sumarlo al proyecto oficial"*.
+
+2. **¿Para qué sirve en trabajo colaborativo?** Sirve para mantener el orden. Permite que varias personas trabajen en el mismo repositorio sin sobrescribir el trabajo de otros por error, facilitando que el equipo revise y discuta las mejoras antes de que sean definitivas.
+
+3. **¿Por qué es importante revisar antes de hacer merge?** Es fundamental para atrapar errores antes de que afecten a todo el grupo. Al revisar, nos aseguramos de que el código sea de calidad, que no rompa lo que ya funciona y que la versión principal del proyecto en GitHub siempre esté estable y limpia.
+ 
+## Conclusión personal
+Aprender a usar los **Pull Requests** me ha permitido ver el código desde otra perspectiva. Detectar posibles errores antes del merge no solo cuida la estabilidad de la app, sino que me ayuda a crecer como desarrolladora al compartir conocimientos y asegurar que entreguemos un trabajo profesional como equipo.
+
+----------------
 
 ## Aporte alumna 7 Arantxa
 
