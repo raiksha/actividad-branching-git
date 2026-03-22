@@ -254,3 +254,31 @@ Una analogía de este proceso, es lo que ocurre en el universo cinematográfico 
 ## Conclusión personal
 
 El merge es un paso importante en la creación del código y el trabajo en equipo, ya que permite avanzar más rápido en la creación de código, pero se debe hacer con cuidado para no afectar el main. 
+
+---
+
+## Aporte Alumno 8 Pablo
+
+## Tema investigado 
+**Buenas prácticas al trabajar con ramas**
+ 
+## Definición
+Una **Rama** (o **Branch**) constituye un entorno de trabajo independiente derivado de una versión específica del código base. En este ecosistema, la **Rama Principal** (**Main** o **Master**) funciona como el repositorio del código estable, validado y preparado para producción. Paralelamente, se emplean **Ramas de Funcionalidad** (**Feature Branches**) para la implementación de nuevas características o la resolución de errores técnicos, permitiendo que el desarrollo progrese sin comprometer la integridad del tronco principal. Este modelo garantiza la seguridad del proyecto, ya que cualquier experimento fallido puede descartarse eliminando la rama afectada sin impacto alguno en el código fuente. Asimismo, optimiza la colaboración técnica, permitiendo que múltiples desarrolladores trabajen de forma simultánea y aislada en distintos requerimientos sobre un mismo proyecto, evitando conflictos de integración. 
+
+Para trabajar con ramas de manera profesional, es fundamental mantener un flujo ordenado basado en tres pilares: **mensajes de commit claros**, que actúan como un mapa histórico para entender el porqué de cada cambio; **ramas de vida corta**, que evitan conflictos técnicos masivos al integrar pequeñas funcionalidades de forma constante; y la **revisión de código antes de fusionar** (**merge**), que funciona como un **filtro de calidad** esencial para detectar errores y compartir conocimientos entre el equipo antes de que el código llegue a producción. Además, resulta indispensable la implementación de **Commits Atómicos**, una práctica que consiste en **registrar cambios frecuentes** y granulares que representen **una única unidad lógica funcional**. Este enfoque optimiza la trazabilidad del historial y permite una reversión precisa de errores, minimizando el riesgo de perder horas de trabajo. Al fragmentar el desarrollo en aportes indivisibles, se reducen significativamente los conflictos de integración, sustituyendo las entregas masivas por un flujo colaborativo más ágil, seguro y auditable. Finalmente se realiza la **revisión previa al merge**, esto constituye un filtro crítico de control de calidad que permite detectar errores lógicos o vulnerabilidades antes del despliegue en producción. Este proceso no solo garantiza la estandarización y mantenibilidad del proyecto bajo lineamientos técnicos uniformes, sino que también fomenta la transferencia de conocimiento y la responsabilidad compartida, fortaleciendo la cohesión técnica y la fiabilidad del software.
+
+## Explicación propia
+Para mi, Una **Rama** o **Branches** es simplemente un espacio separado de trabajo que nace a partir de una versión específica de un código. Se encuentran la **Rama Main** (**Master** o **Principal**) donde reside el código que funciona perfectamente y que está listo para producción. Después están **Ramas de Funcionalidad** (**Feature Branches**) que se usan cuando se necesita agregar algo nuevo, por ejemplo un botón o corregir un error en el codigo. Esto permite trabajar sin afectar al equipo ni al código main. Se usan por seguridad si un experimento sale mal, simplemente se borra la rama y se crea otra nueva mientras que la rama main sigue estando intacta. También se usa para la **Colaboración**, ya que diez personas pueden trabajar en diez ramas distintas al mismo tiempo sobre el mismo proyecto sin estorbarse.
+
+## Preguntas
+### 1. ¿Cómo deberían nombrarse las ramas?
+- Primero tiene que haber una **rama main**, para después crear las demás con sus **funciones especificas**, ademas de especificar las funciones que tendrán mas adelante cuando se agreguen a main.
+
+### 2. ¿Cómo debería escribirse un commit claro?
+- Para redactar un commit claro y profesional, la clave es utilizar el estándar de Conventional Commits, que consiste en asignar un prefijo al mensaje según el tipo de cambio (como **feat**: para funciones, **fix**: para errores o **refactor**: para mejoras técnicas). El mensaje debe escribirse en modo imperativo y ser lo más específico posible dentro de una extensión breve, **por ejemplo: feat: agregar validación de formulario**. Este enfoque no solo facilita la lectura del historial, sino que permite que cualquier desarrollador entienda de inmediato qué se hizo y cuál es el propósito del cambio sin necesidad de revisar el código línea por línea.
+
+### 3. ¿Qué buenas prácticas ayudan a trabajar mejor en equipo?
+- Para trabajar con ramas de manera profesional se necesita mensajes de **commit claros** que sirven como historial de cambios, **ramas de vida corta** para evitar conflictos técnicos al integrar, y la **revisión de código antes del merge**, como filtro esencial de calidad. Además, es indispensable realizar **Commits frecuentementes** registrando cambios que representen una única unidad lógica. Este enfoque optimiza la trazabilidad y permite revertir errores con precisión sin perder horas de trabajo, sustituyendo las entregas masivas por un flujo colaborativo mucho más ágil, seguro y fácil de auditar.
+
+## Ejemplo
+Produzco una nueva rama llamada feature/documents donde se enfocara en generar documentaciones de los procesos hechos en el proyecto, ademas de instrucciones, cargos, y posibles tareas a futuro del proyecto en Github. Con esto puedo trabajar de forma separada de la Main, mientras mis compañeros colaboran en sus respectivas ramas sin preocuparse de que arruine el código principal.
