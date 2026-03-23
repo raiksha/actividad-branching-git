@@ -54,44 +54,44 @@ gitGraph
     
     branch "feature/aporte-angela"
     checkout "feature/aporte-angela"
-    commit id: "Branch vs Fork"
+    commit id: "Investigación: Branch vs Fork"
     checkout main
     merge "feature/aporte-angela" id: "Merge PR Angela (por María)"
     
     branch "feature/aporte-matias"
     checkout "feature/aporte-matias"
-    commit id: "Main & Protección"
+    commit id: "Investigación: Main & Protección"
     checkout main
     merge "feature/aporte-matias" id: "Merge PR Matias (por Dafne)"
     
     branch "feature/aporte-zuelem"
     checkout "feature/aporte-zuelem"
-    commit id: "Importancia Commit"
+    commit id: "Investigación: Importancia Commit"
     checkout main
     merge "feature/aporte-zuelem" id: "Merge PR Zuelem (por Valentina)"
     
     branch "feature/aporte-dafne"
     checkout "feature/aporte-dafne"
-    commit id: "Push & GitHub"
+    commit id: "Investigación: Push & GitHub"
     checkout main
     merge "feature/aporte-dafne" id: "Merge PR Dafne (Auto)"
     
     branch "feature/aporte-valentina"
     checkout "feature/aporte-valentina"
-    commit id: "Uso de Pull Requests"
+    commit id: "Investigación: Pull Requests"
     checkout main
     merge "feature/aporte-valentina" id: "Merge PR Valentina (Auto)"
     
     branch "feature/aporte-arantxa"
     checkout "feature/aporte-arantxa"
-    commit id: "Qué es un PR"
+    commit id: "Investigación: PR"
     checkout main
     merge "feature/aporte-arantxa" id: "Merge PR Arantxa (por María)"
     
     branch "feature/documentacion-pablo"
     checkout "feature/documentacion-pablo"
     commit id: "Docs & Reflexiones"
-    commit id: "Buenas Prácticas"
+    commit id: "Investigación: Buenas Prácticas"
     checkout main
     merge "feature/documentacion-pablo" id: "Cierre Proyecto" tag: "v1.0"
 ```
